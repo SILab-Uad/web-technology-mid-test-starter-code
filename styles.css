@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* TODO: Style the title and result title for better visibility and aesthetics */
+.title, .result-title {
+    color: #333;
+}
+
+/* TODO: Add styles for checkbox container and customize the appearance of checkboxes */
+.checkbox-container {
+    margin: 10px 0;
+}
+
+/* TODO: Style the button (background color, padding, border-radius, hover effect) */
+.btn-generate {
+    margin-top: 20px;
+}
+
+/* TODO: Style the password display area (font size, color, etc.) */
+.password-display {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
